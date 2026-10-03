@@ -1,0 +1,11 @@
+numpy
+pandas
+matplotlib
+seaborn
+scipy
+statsmodels
+tableone
+openpyxl
+xlrd
+funpymodeling
+jupyterlab

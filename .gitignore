@@ -1,0 +1,29 @@
+# Patient data must never be committed
+data/
+*.xlsx
+*.xls
+*.csv
+*.tsv
+*.sav
+*.dta
+*.rds
+*.RData
+*.pkl
+*.pickle
+*.parquet
+*.feather
+*.h5
+*.db
+*.sqlite
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+
+# Environments and caches
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
