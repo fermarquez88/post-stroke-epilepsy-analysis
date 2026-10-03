@@ -8,18 +8,20 @@ epilepsy after ischemic stroke at Fleni (Buenos Aires, Argentina), published as:
 > *J Stroke Cerebrovasc Dis.* 2022;31(12):106858.
 > doi: [10.1016/j.jstrokecerebrovasdis.2022.106858](https://doi.org/10.1016/j.jstrokecerebrovasdis.2022.106858)
 
-**Scope.** These notebooks contain the preliminary analysis (2020) that preceded
+**Scope: preliminary analysis, not the final analysis of the article.** These
+notebooks contain the preliminary analysis presented at the 57th Argentine
+Congress of Neurology (Congreso Argentino de Neurología, 2020), which preceded
 the article: merging of the chart-review form with the institutional stroke
 registry, inclusion/exclusion criteria, de-duplication of readmissions,
 cleaning and imputation, Table 1 (`tableone`), Spearman correlations and
 logistic regression with backward elimination. The final cohort and model
-reported in the article (larger sample, longer recruitment window) were
-produced later and are not fully reproduced here.
+reported in the article (larger sample, longer recruitment window, different
+final predictors) were produced later and are not reproduced here.
 
 | Notebook | Content |
 |---|---|
 | `notebooks/01_post_stroke_epilepsy_analysis.ipynb` | Last version of the analysis notebook (November 2020) |
-| `notebooks/00_exploratory_CAN2020.ipynb` | Earlier exploratory version (Argentine Neurology Congress 2020 abstract), kept because it contains code dropped later: labelled Table 1 with automatic normality test, seizure plots, `funpymodeling` profiling |
+| `notebooks/00_exploratory_CAN2020.ipynb` | Earlier exploratory version (57th Argentine Congress of Neurology, 2020), kept because it contains code dropped later: labelled Table 1 with automatic normality test, seizure plots, `funpymodeling` profiling |
 
 ## Data
 
